@@ -1,0 +1,24 @@
+h1{
+    color: rgb(0, 0, 0);
+}
+
+#Teste{
+    font-size: 40px;
+    color: rgb(255, 0, 0);
+}
+
+body{
+    text-align: center;
+}
+
+
+a{
+    font-size:40px;
+}
+
+
+ a:hover{
+    color:rgb(43, 226, 83);
+    font-size: 40px;
+ }
+ 
