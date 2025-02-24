@@ -1,24 +1,56 @@
-h1{
-    color: rgb(0, 0, 0);
-}
-
-#Teste{
-    font-size: 40px;
-    color: rgb(255, 0, 0);
-}
-
-body{
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 
+h1, h3 {
+    color: #ffffff;
+}
 
-a{
-    font-size:40px;
+p {
+    font-size: 18px;
+    color: #ffffff;
+    max-width: 800px;
+    margin: 0 auto 20px;
 }
 
 
- a:hover{
-    color:rgb(43, 226, 83);
-    font-size: 40px;
- }
- 
+img {
+    max-width: 200px;
+    height: auto;
+    margin: 10px;
+    
+}
+
+.bio{
+    color: aqua;
+}
+
+
+iframe {
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+div ul {
+    list-style: none;
+    padding: 0;
+}
+
+    div ul li {
+    display: inline;
+    margin: 0 10px;
+    }
+
+div ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+div ul li a:hover {
+    color: #ff0000;
+}
