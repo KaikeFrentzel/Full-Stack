@@ -1,0 +1,94 @@
+body {
+    font-family: 'SansSerif';
+    background-color: #c9c9dd;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid #000;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logos img {
+    width: 100px;
+}
+
+header h1 {
+    color: #2e7d32;
+    font-size: 30pt;
+    margin: 0;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    margin: 20px;
+    padding: 10px;
+    border-top: 1px solid #000;
+}
+
+h2 {
+    font-size: 24pt;
+    color: #333;
+}
+
+p {
+    font-size: 20pt;
+    color: #333;
+}
+
+.livros img {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    border: 1px solid #000;
+}
+
+.contatos table {
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px dashed red;
+}
+
+.contatos td {
+    padding: 10px;
+    border: 1px dashed red;
+}
+
+footer {
+    background-color: #fdfdbb;
+    padding: 10px;
+    font-family: 'Comic Sans MS';
+    font-size: 15pt;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    width: 60px;
+    margin: 10px;
+}
+
+.links {
+    text-align: left;
+    padding-left: 10px;
+}
